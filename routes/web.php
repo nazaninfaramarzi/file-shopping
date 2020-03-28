@@ -1,11 +1,5 @@
 <?php
-use App\Model\Comments;
-use App\User;
-use App\Rolws;
 
-use Carbon\
-carbon;
-use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,23 +19,14 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/date', function (){
-    $date=new DateTime('+1 year -1 week');
-    return $date->format('d-m-Y h:i:m');
+Route::group(['namespace'=>'admin','middleware'=>['auth'],'prefix'=>'/admin'],function(){
+  Route::resource('/product', 'ProductController');
+  Route::resource('/role', 'RoleController');
+  Route::resource('/user', 'UserController');
+  Route::resource('/permission', 'PermissionController');
+  Route::resource('/category', 'CategoryController');
+  Route::resource('/producer', 'ProducerController');
+  Route::resource('/slider', 'SliderController');
+  Route::resource('/filter', 'FilterController');
+  Route::resource('/sliderparent', 'Slider_parentController');
 });
-
-Route::get('/carbon', function(){
-    
-    $carbon = Carbon::now()->addDay(+1);
-    return $carbon->diffForHumans();
-
-});
-
-Route::get('/attributes' , function(){
-
-    $comment=Comments::findOrFail(2);
-    return $comment->commenttext; 
-});
-
-Route::resource('/comment', 'CommentsController');
-

@@ -16,8 +16,36 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'gender_id', 'lastlogin',
     ];
+
+    public function gender(){
+        return $this->belongsTo(Gender::class);
+    }
+
+    public function rating(){
+        return $this->hasMany(Rating::class);
+    }
+
+    public function comment(){
+        return $this->hasMany(Comment::class);
+    }
+
+    public function role(){
+        return $this->belongsToMany(Role::class);
+    }
+
+    public function basket(){
+        return $this->hasMany(Basket::class);
+    }
+
+    public function factor(){
+        return $this->hasMany(Factor::class);
+    }
+
+    public function article(){
+        return $this->hasMany(Article::class);
+    }
 
     /**
      * The attributes that should be hidden for arrays.

@@ -20,8 +20,8 @@
             </div>
         </div>
         <div class="banner_img" >
-            <img src="img/banner.png" alt="#" class="img-fluid" >
-            <img src="img/banner_pattern.png " alt="#" class="pattern_img img-fluid">
+            <img src="theme/img/banner.png" alt="#" class="img-fluid" >
+            <img src="theme/img/banner_pattern.png " alt="#" class="pattern_img img-fluid">
         </div>
     </section>
     <!-- banner part start-->
@@ -35,8 +35,8 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single_product_img">
-                                    <img src="img/single_product_1.png" class="img-fluid" alt="#">
-                                    <img src="img/product_overlay.png" alt="#" class="product_overlay img-fluid">
+                                    <img src="theme/img/single_product_1.png" class="img-fluid" alt="#">
+                                    <img src="theme/img/product_overlay.png" alt="#" class="product_overlay img-fluid">
                                 </div>
                             </div>
                             <div class="col-lg-5 col-sm-6">
@@ -52,8 +52,8 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single_product_img">
-                                    <img src="img/single_product_2.png" class="img-fluid" alt="#">
-                                    <img src="img/product_overlay.png" alt="#" class="product_overlay img-fluid">
+                                    <img src="theme/img/single_product_2.png" class="img-fluid" alt="#">
+                                    <img src="theme/img/product_overlay.png" alt="#" class="product_overlay img-fluid">
                                 </div>
                             </div>
                             <div class="col-lg-5 col-sm-6">
@@ -69,8 +69,8 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single_product_img">
-                                    <img src="img/single_product_3.png" class="img-fluid" alt="#">
-                                    <img src="img/product_overlay.png" alt="#" class="product_overlay img-fluid">
+                                    <img src="theme/img/single_product_3.png" class="img-fluid" alt="#">
+                                    <img src="theme/img/product_overlay.png" alt="#" class="product_overlay img-fluid">
                                 </div>
                             </div>
                             <div class="col-lg-5 col-sm-6">
@@ -103,7 +103,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <div class="single_product_item_thumb">
-                            <img src="img/tranding_item/tranding_item_1.png" alt="#" class="img-fluid">
+                            <img src="theme/img/tranding_item/tranding_item_1.png" alt="#" class="img-fluid">
                         </div>
                         <h3> <a href="single-product.html">بالش دور گردنی مخصوص مسافرت
                         </a> </h3>
@@ -112,35 +112,35 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
-                        <img src="img/tranding_item/tranding_item_2.png" alt="#" class="img-fluid">
+                        <img src="theme/img/tranding_item/tranding_item_2.png" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">بالشتک های طبی از جنس فوم</a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
-                        <img src="img/tranding_item/tranding_item_3.png" alt="#" class="img-fluid">
+                        <img src="theme/img/tranding_item/tranding_item_3.png" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">بالش های طبی از جنس فوم و کتان</a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
-                        <img src="img/tranding_item/tranding_item_4.png" alt="#" class="img-fluid">
+                        <img src="theme/img/tranding_item/tranding_item_4.png" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html"></a> بالش دور گردنی مخصوص مسافرت</h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
-                        <img src="img/tranding_item/tranding_item_5.png" alt="#" class="img-fluid">
+                        <img src="theme/img/tranding_item/tranding_item_5.png" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">فوم و کتان مخصوص بالش های طبی</a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
-                        <img src="img/tranding_item/tranding_item_6.png" alt="#" class="img-fluid">
+                        <img src="theme/img/tranding_item/tranding_item_6.png" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">بالش دور گردنی طبی مخصوص مسافرت</a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
@@ -158,21 +158,21 @@
                     <div class="client_review_slider owl-carousel " >
                         <div class="single_client_review" dir="rtl" >
                             <div class="client_img" >
-                                <img src="img/client.png" alt="#">
+                                <img src="theme/img/client.png" alt="#">
                             </div>
                             <p >"استفاده از بالش های طبی را در سفرهای طولانی مدت پیشنهاد می کنم.</p>
                             <h5  >- رضا محمدی</h5>
                         </div>
                         <div class="single_client_review" dir="rtl">
                             <div class="client_img">
-                                <img src="img/client_1.png" alt="#">
+                                <img src="theme/img/client_1.png" alt="#">
                             </div>
                             <p >"برای جلوگیری از گردن درد گزینه های مناسبی هستند.</p>
                             <h5 >- امیر امیری</h5>
                         </div>
                         <div class="single_client_review" dir="rtl">
                             <div class="client_img">
-                                <img src="img/client_2.png" alt="#">
+                                <img src="theme/img/client_2.png" alt="#">
                             </div>
                             <p >"برای نشستن های طولانی مدت روی مبل قابل قبول اند.</p>
                             <h5 >- محمد موسوی</h5>
@@ -203,25 +203,25 @@
             <div class="row justify-content-center">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_part">
-                        <img src="img/icon/feature_icon_1.svg" alt="#">
+                        <img src="theme/img/icon/feature_icon_1.svg" alt="#">
                         <h4>پشتیبانی کارت های اعتباری</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_part">
-                        <img src="img/icon/feature_icon_2.svg" alt="#">
+                        <img src="theme/img/icon/feature_icon_2.svg" alt="#">
                         <h4>سفارش آنلاین</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_part">
-                        <img src="img/icon/feature_icon_3.svg" alt="#">
+                        <img src="theme/img/icon/feature_icon_3.svg" alt="#">
                         <h4>تحویل رایگان</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_part">
-                        <img src="img/icon/feature_icon_4.svg" alt="#">
+                        <img src="theme/img/icon/feature_icon_4.svg" alt="#">
                         <h4>محصولات همراه با جایزه</h4>
                     </div>
                 </div>

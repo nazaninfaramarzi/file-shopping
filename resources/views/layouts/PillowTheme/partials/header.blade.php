@@ -4,7 +4,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="/"> <img src="img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="/"> <img src="theme/img/logo.png" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -57,20 +57,12 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
                                    
-
+                                        
                                         <a class="dropdown-item" href="checkout.html">چک کردن محصولات</a>
                                         <a class="dropdown-item" href="cart.html">سبد خرید</a>
                                         <a class="dropdown-item" href="confirmation.html">تایید نهایی</a>
                                         <a class="dropdown-item" href="elements.html">جزئیات</a>
-                                        <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        خروج
-                                    </a>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
                                     </div>
                                 </li>
                                 @endguest
@@ -95,6 +87,43 @@
                             <a href="cart.html">
                                 <i class="flaticon-shopping-cart-black-shape"></i>
                             </a>
+                            
+                          
+                            <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">person</i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                   
+                                   <a class="dropdown-item" href="profile">
+                                   @guest
+                                   <a class="dropdown-item" href="login"> 
+                                            ورود
+                                            
+                                        </a>
+                                        @if (Route::has('register'))
+                                        <a class="dropdown-item" href="register"> 
+                                            ثبت نام
+                                            
+                                        </a>
+                                        @endif
+                                        @endguest
+                                        @auth
+                                    {{auth()->user()->name}}
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        خروج
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                        @endauth
+                                    </a>
+                                   </div>
+                                   </div>
                         </div>
                     </nav>
                 </div>

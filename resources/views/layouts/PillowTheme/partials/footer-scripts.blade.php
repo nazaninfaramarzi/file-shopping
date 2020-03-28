@@ -1,22 +1,22 @@
    <!-- jquery plugins here-->
-   <script src="js/jquery-1.12.1.min.js"></script>
+   <script src="theme/js/jquery-1.12.1.min.js"></script>
     <!-- popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="theme/js/popper.min.js"></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="theme/js/bootstrap.min.js"></script>
     <!-- magnific popup js -->
-    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="theme/js/jquery.magnific-popup.js"></script>
     <!-- carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="theme/js/owl.carousel.min.js"></script>
+    <script src="theme/js/jquery.nice-select.min.js"></script>
     <!-- slick js -->
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
+    <script src="theme/js/slick.min.js"></script>
+    <script src="theme/js/jquery.counterup.min.js"></script>
+    <script src="theme/js/waypoints.min.js"></script>
+    <script src="theme/js/contact.js"></script>
+    <script src="theme/js/jquery.ajaxchimp.min.js"></script>
+    <script src="theme/js/jquery.form.js"></script>
+    <script src="theme/js/jquery.validate.min.js"></script>
+    <script src="theme/js/mail-script.js"></script>
     <!-- custom js -->
-    <script src="js/custom.js"></script>
+    <script src="theme/js/custom.js"></script>
